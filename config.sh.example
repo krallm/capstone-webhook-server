@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Port of the rails development server to check
+PORT="3000"
+
+# Path of repository
+REPO_PATH="$HOME/git/Capstone2015"
+
+# Remote to pull from when updating
+REMOTE="origin"
+
+# Branch to pull from when updating
+BRANCH="live"
