@@ -20,7 +20,7 @@ if [ ! -z "$PID" ]; then
 fi
 
 # Pull
-cd $HOME/git/Capstone2015
+cd "$REPO_PATH"
 echo "$PRE pulling from $REMOTE:$BRANCH"
 git pull "$REMOTE" "$BRANCH"
 
