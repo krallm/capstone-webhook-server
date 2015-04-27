@@ -11,3 +11,7 @@ REMOTE="origin"
 
 # Branch to pull from when updating
 BRANCH="live"
+
+# With the way the current production config is setup, we do
+# want to serve static files (for image uploads)
+export RAILS_SERVE_STATIC_FILES=1
